@@ -85,3 +85,30 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+@media (max-width: 767px) {
+  .mobile-size,
+  .mb-3 {
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  .img-fluid {
+    max-width: 75%;
+  }
+  .about-photos{
+    text-align: center;
+    max-width: 70%;
+  }
+  .contact-mail {
+    margin-bottom: 40px;
+  }
+}
